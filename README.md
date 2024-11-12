@@ -9,8 +9,6 @@ This project is a NestJS API application for managing users and authentication, 
 - [Folder Structure](#folder-structure)
 - [Modules](#modules)
 - [Usage](#usage)
-- [Scripts](#scripts)
-- [License](#license)
 
 ---
 
@@ -65,6 +63,8 @@ src/
 ├── app.module.ts            # Main application module
 └── main.ts                  # Entry file
 ```
+
+## Usage
 
 ### Running the App
 
