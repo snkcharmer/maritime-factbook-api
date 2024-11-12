@@ -7,7 +7,6 @@ This project is a NestJS API application for managing users and authentication, 
 - [Setup](#setup)
 - [Environment Variables](#environment-variables)
 - [Folder Structure](#folder-structure)
-- [Modules](#modules)
 - [Usage](#usage)
 
 ---
