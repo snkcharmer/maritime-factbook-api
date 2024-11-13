@@ -7,6 +7,7 @@ import commonConfig from './config/common.config';
 import { DatabaseModule } from './database/database.module';
 import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
+import { SeederService } from './seeder/seeder.service';
 
 @Module({
   imports: [
@@ -19,5 +20,6 @@ import { UsersModule } from './users/users.module';
     AuthModule,
     UsersModule,
   ],
+  providers: [SeederService],
 })
 export class AppModule {}
